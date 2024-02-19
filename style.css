@@ -16,19 +16,15 @@
   position: relative; */
   gap: 1vw;
 }
-.nav_logo {
-  /* height: 0.5vw; */
-  width: 7vw;
-  height: 3.5vw;
-  display: flex;
-}
+
 .logo {
   background-image: url("./logo/amazon_logo.png");
   background-size: cover;
-  height: 3.5vw;
+  height: 4vw;
   width: 7vw;
   align-items: center;
   justify-content: center;
+  color: white;
 }
 .border {
   border: 1.5px solid transparent;
