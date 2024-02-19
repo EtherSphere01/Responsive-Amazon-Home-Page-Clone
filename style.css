@@ -22,7 +22,7 @@
   display: flex;
 }
 .logo {
-  background-image: url("./logo/amazon_logo.PNG");
+  background-image: url("./logo/amazon_logo.png");
   background-size: cover;
   height: 3.5vw;
   width: 7vw;
