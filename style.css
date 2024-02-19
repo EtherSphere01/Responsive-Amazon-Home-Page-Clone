@@ -60,10 +60,10 @@
   margin-left: 3px;
 }
 .image {
-  background-image: url("./logo/location_logo.PNG");
+  background-image: url("./logo/location_logo.png");
   background-size: cover;
   height: 1.2vw;
-  width: 1vw;
+  width: 0.9vw;
 }
 
 /* Search */
@@ -111,7 +111,6 @@
 }
 /*  */
 .hello {
-  
   height: 1vw;
   font-size: 0.85vw;
 }
@@ -124,7 +123,6 @@
 
 /* return */
 
-
 /* cart */
 
 .nav_cart i {
@@ -132,7 +130,6 @@
   font-size: 1.9vw;
 }
 .nav_cart {
-  
   font-size: 1vw;
   font-weight: 700;
 }
