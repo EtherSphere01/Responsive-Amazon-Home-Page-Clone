@@ -4,6 +4,13 @@
   border: border-box;
 }
 
+.menu i {
+  display: none;
+}
+.phone_signin {
+  display: none;
+}
+
 /* amazon logo */
 .navbar {
   height: 4.5vw;
@@ -148,10 +155,4 @@
   background-color: #0f1111;
   color: white;
   font-weight: 700;
-}
-.menu i {
-  display: none;
-}
-.phone_signin {
-  display: none;
 }
