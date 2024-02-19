@@ -149,3 +149,9 @@
   color: white;
   font-weight: 700;
 }
+.menu i{
+  display: none;
+}
+.phone_signin{
+  display: none;
+}
