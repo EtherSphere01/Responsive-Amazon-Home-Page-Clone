@@ -67,7 +67,7 @@
 .nav_search {
   display: flex;
   justify-content: space-evenly;
-  width: 52vw;
+  width: 50vw;
   height: 2.5vw;
   border-radius: 4px;
 }
