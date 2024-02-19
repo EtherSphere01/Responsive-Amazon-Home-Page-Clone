@@ -14,7 +14,7 @@
   align-items: center;
   /* justify-content: space-evenly;
   position: relative; */
-  gap: 1vw;
+  gap: 1.2vw;
 }
 
 .logo {
@@ -149,9 +149,9 @@
   color: white;
   font-weight: 700;
 }
-.menu i{
+.menu i {
   display: none;
 }
-.phone_signin{
+.phone_signin {
   display: none;
 }
