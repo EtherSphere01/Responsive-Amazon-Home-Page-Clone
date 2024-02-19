@@ -111,6 +111,7 @@
 }
 /*  */
 .hello {
+  
   height: 1vw;
   font-size: 0.85vw;
 }
@@ -121,12 +122,17 @@
   font-weight: 700;
 }
 
+/* return */
+
+
 /* cart */
 
 .nav_cart i {
+  padding-left: 1vw;
   font-size: 1.9vw;
 }
 .nav_cart {
+  
   font-size: 1vw;
   font-weight: 700;
 }
