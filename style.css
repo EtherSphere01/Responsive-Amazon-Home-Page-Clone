@@ -18,7 +18,8 @@
 }
 .nav_logo {
   /* height: 0.5vw; */
-  width: 6vw;
+  width: 7vw;
+  height: 3.5vw;
   display: flex;
 }
 .logo {
