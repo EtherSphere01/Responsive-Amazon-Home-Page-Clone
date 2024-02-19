@@ -20,7 +20,7 @@
 .logo {
   background-image: url("./logo/amazon_logo.png");
   background-size: cover;
-  height: 4vw;
+  height: 3.5vw;
   width: 7vw;
   align-items: center;
   justify-content: center;
@@ -59,7 +59,7 @@
 .image {
   background-image: url("./logo/location_logo.png");
   background-size: cover;
-  height: 1.2vw;
+  height: 1.1vw;
   width: 0.9vw;
 }
 
@@ -67,7 +67,7 @@
 .nav_search {
   display: flex;
   justify-content: space-evenly;
-  width: 55vw;
+  width: 52vw;
   height: 2.5vw;
   border-radius: 4px;
 }
