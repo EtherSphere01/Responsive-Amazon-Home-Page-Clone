@@ -64,11 +64,6 @@
     font-size: 2vw;
     font-weight: 600;
   }
-  .menu i {
-    display: block;
-    font-size: 2.5vw;
-    padding-right: 1vw;
-  }
 
   .nav_singin {
     display: none;
@@ -88,5 +83,33 @@
   }
   .signin {
     font-weight: 600;
+  }
+
+  /* panel */
+  .panel {
+    height: 3.2vw;
+  }
+
+  .panel_all {
+    width: 7%;
+    font-size: 1.7vw;
+  }
+
+  .panel_ops {
+    width: 68%;
+  }
+
+  .panel_ops ul {
+    justify-content: center;
+    font-size: 1.3vw;
+  }
+
+  .panel_deals {
+    width: 25%;
+  }
+
+  .panel_deals p {
+    padding-left: 8vw;
+    font-size: 1.3vw;
   }
 }
