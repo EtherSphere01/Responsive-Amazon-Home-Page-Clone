@@ -1,4 +1,4 @@
-@media (max-width: 600px) {
+@media (max-width: 900px) {
   .navbar {
     height: 11vw;
     gap: 1vw;
@@ -137,7 +137,7 @@
     background-color: transparent;
     color: black;
     font-family: verdana;
-    font-size: 2vw;
+    font-size: 1.8vw;
     height: 6vw;
     width: 96vw;
   }
@@ -183,5 +183,114 @@
   .see {
     margin-top: 1.5vw;
     font-size: 1.6vw;
+  }
+
+  /* footer panel */
+
+  .all {
+    height: 10vw;
+    border-radius: 1.5vw;
+  }
+
+  .footer_signin {
+    padding-top: 119vw;
+  }
+
+  .recomm p {
+    font-size: 2vw;
+    padding-bottom: 1vw;
+  }
+
+  .signbtn button {
+    width: 25vw;
+    height: 4vw;
+    font-size: 2vw;
+    border-radius: 0.6vw;
+  }
+
+  .newcust p {
+    padding-top: 1vw;
+    font-size: 2vw;
+  }
+
+  .foot_panel1 {
+    height: 6vw;
+    font-size: 2vw;
+  }
+
+  .foot_panel2 {
+    height: 65vw;
+    padding-top: 3vw;
+    line-height: 2.7vw;
+  }
+
+  .foot_panel2 ul a {
+    width: 34vw;
+    font-size: 2vw;
+  }
+  .foot_panel2 ul p {
+    width: 34vw;
+    font-size: 2.5vw;
+  }
+
+  .foot_panel3 {
+    height: 15vw;
+  }
+
+  .im {
+    height: 12vw;
+    width: 18vw;
+    padding-right: 1.5vw;
+    margin-top: 2.5vw;
+  }
+
+  .eng {
+    height: 5vw;
+    width: 20vw;
+    font-size: 2.3vw;
+  }
+
+  .usd {
+    height: 5vw;
+    width: 25vw;
+    font-size: 2.3vw;
+  }
+
+  .usa {
+    height: 5vw;
+    width: 25vw;
+    font-size: 2.3vw;
+  }
+
+  /* foot panel 4 */
+  .foot_panel4 {
+    height: 48vw;
+    padding-top: 2vw;
+    line-height: 1vw;
+  }
+  .foot_panel4 ul a {
+    width: 12vw;
+    font-size: 1.5vw;
+  }
+  .foot_panel4 ul p {
+    font-size: 2vw;
+  }
+  .foot_panel4 ul {
+    line-height: 1.8vw;
+  }
+
+  /* foot panel 5 */
+
+  .foot_panel5 {
+    height: 5vw;
+    padding-top: 8vw;
+  }
+  .pages {
+    font-size: 1vw;
+  }
+
+  .copyright {
+    padding-top: 0.3vw;
+    font-size: 1vw;
   }
 }
