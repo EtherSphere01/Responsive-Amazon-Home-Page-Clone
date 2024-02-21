@@ -1,12 +1,17 @@
 @media (max-width: 600px) {
   .navbar {
-    height: 9vw;
+    height: 11vw;
     gap: 1vw;
   }
 
+  .border:hover {
+    border: none;
+  }
+
   .logo {
-    height: 10vw;
-    width: 16vw;
+    height: 8vw;
+    width: 15vw;
+    padding: 1vw;
   }
 
   .nav_address {
@@ -15,9 +20,13 @@
 
   .nav_search {
     display: flex;
-    width: 75vw;
-    height: 5.5vw;
-    padding-bottom: 0.5vw;
+    width: 55vw;
+    height: 5vw;
+    padding-bottom: 2vw;
+  }
+
+  .nav_search:hover {
+    border: none;
   }
 
   .search_select {
@@ -56,12 +65,13 @@
   }
 
   .nav_cart i {
-    font-size: 2.5vw;
+    font-size: 3vw;
     margin-right: 0.5vw;
+    padding-bottom: 1vw;
   }
   .nav_cart {
     display: flex;
-    font-size: 2vw;
+    font-size: 2.5vw;
     font-weight: 600;
   }
 
@@ -74,6 +84,7 @@
     justify-content: center;
     align-items: center;
     font-size: 2vw;
+    padding-bottom: 1.5vw;
   }
 
   .phone_signin i {
@@ -82,26 +93,27 @@
     padding-left: 1vw;
   }
   .signin {
+    font-size: 2.5vw;
     font-weight: 600;
   }
 
   /* panel */
   .panel {
-    height: 3.2vw;
+    height: 5vw;
   }
 
   .panel_all {
-    width: 7%;
-    font-size: 1.7vw;
+    width: 5%;
+    font-size: 2.5vw;
   }
 
   .panel_ops {
-    width: 68%;
+    width: 70%;
   }
 
   .panel_ops ul {
     justify-content: center;
-    font-size: 1.3vw;
+    font-size: 2.1vw;
   }
 
   .panel_deals {
@@ -110,6 +122,66 @@
 
   .panel_deals p {
     padding-left: 8vw;
-    font-size: 1.3vw;
+    font-size: 1.5vw;
+  }
+
+  /* Hero section */
+  .hero_section {
+    height: 55vw;
+  }
+  .tojustify {
+    padding-top: 35vw;
+  }
+
+  .hero_message {
+    background-color: transparent;
+    color: black;
+    font-family: verdana;
+    font-size: 2vw;
+    height: 6vw;
+    width: 96vw;
+  }
+  .hero_message p {
+    color: white;
+    animation: hero_color 30s ease-in-out infinite 1s normal none;
+  }
+
+  @keyframes hero_color {
+    28% {
+      color: black;
+    }
+    70% {
+      color: black;
+    }
+  }
+  .hero_message a {
+    display: flex;
+    justify-content: center;
+  }
+
+  /* Shop Section */
+
+  .shop_section {
+    height: 130vw;
+    width: 100%;
+  }
+
+  .box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    height: 28vw;
+    width: 28%;
+  }
+
+  .see1 {
+    font-size: 2.5vw;
+    padding-bottom: 1vw;
+  }
+
+  .see {
+    margin-top: 1.5vw;
+    font-size: 1.6vw;
   }
 }
