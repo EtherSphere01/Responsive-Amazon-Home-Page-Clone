@@ -264,7 +264,7 @@
 
   /* foot panel 4 */
   .foot_panel4 {
-    height: 48vw;
+    height: 58vw;
     padding-top: 2vw;
     line-height: 1vw;
   }
@@ -282,8 +282,9 @@
   /* foot panel 5 */
 
   .foot_panel5 {
-    height: 5vw;
-    padding-top: 8vw;
+    /* background-color: red; */
+    height: 10vw;
+    padding-top: 15vw;
   }
   .pages {
     font-size: 1vw;

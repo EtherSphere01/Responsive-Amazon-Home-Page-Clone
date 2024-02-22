@@ -156,7 +156,7 @@
 /* panel */
 .panel {
   height: 2vw;
-  width: 100vw;
+  width: 100%;
   background-color: #222f3d;
   font-family: verdana;
   display: flex;
@@ -400,6 +400,7 @@
   align-items: center;
   justify-content: center;
   gap: 0.8vw;
+  font-size: 1.6vw;
 }
 .usd {
   color: #dddddd;
@@ -411,6 +412,7 @@
   align-items: center;
   justify-content: center;
   gap: 0.8vw;
+  font-size: 1.4vw;
 }
 .usa {
   color: #dddddd;
@@ -422,6 +424,7 @@
   align-items: center;
   justify-content: center;
   gap: 0.8vw;
+  font-size: 1.4vw;
 }
 
 /* foot panel 4 */
